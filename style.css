@@ -1,0 +1,72 @@
+html, body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+
+img#avatar {
+    position: relative;
+    clip-path: circle(97px at center);
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+div.text {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
+    width: 625px;
+    padding: 20px;
+    border-style: dashed;
+    border-width: .5px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+div#input {
+    height: 45px;
+    text-align: center;
+    font-size: 14px;
+    padding: 0px;
+    padding-bottom: 2px;
+    width: 665px;
+}
+
+.underline {
+    border-bottom: 2px dashed;
+}
+
+.author {
+    display: block;
+    text-align: center;
+}
+
+#map {
+    position: relative;
+    margin: 0 auto;
+    height: 525px;
+    width: 665px;
+    border-radius: 10px;
+}
+
+#controls {
+    position: relative;
+    height: 0px;
+    width: 0px;
+    left: calc(50% + 340px);
+    top: 5px;
+}
+
+#controls ul {
+    list-style-type: none;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+#reset {
+    opacity: .45;
+}
